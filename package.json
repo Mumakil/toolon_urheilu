@@ -16,8 +16,10 @@
     "url": "https://github.com/Mumakil/toolon_urheilu/issues"
   },
   "homepage": "https://github.com/Mumakil/toolon_urheilu",
-  "dependencies": [
-  ],
-  "devDependencies": [
-  ]
+  "dependencies": [],
+  "devDependencies": [],
+  "engines": {
+    "node": "0.10.29",
+    "npm": "1.4.14"
+  }
 }
