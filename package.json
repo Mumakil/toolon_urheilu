@@ -1,0 +1,23 @@
+{
+  "name": "toolon_urheilu",
+  "version": "0.0.1",
+  "description": "Tells if there's a sports event in Töölö",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mumakil/toolon_urheilu"
+  },
+  "author": "Otto Vehviläinen <otto.vehvilainen@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mumakil/toolon_urheilu/issues"
+  },
+  "homepage": "https://github.com/Mumakil/toolon_urheilu",
+  "dependencies": [
+  ],
+  "devDependencies": [
+  ]
+}
