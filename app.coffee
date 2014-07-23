@@ -1,9 +1,11 @@
+config = require './lib/express_config'
+middleware = require './lib/express_middleware'
 express = require 'express'
-logfmt = require 'logfmt'
 
 app = express()
 
-app.use logfmt.requestLogger()
+config(app)
+middleware(app)
 
 app.get '/', (req, res) ->
 	res.send 'hello'
