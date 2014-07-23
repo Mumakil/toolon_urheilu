@@ -16,8 +16,14 @@
     "url": "https://github.com/Mumakil/toolon_urheilu/issues"
   },
   "homepage": "https://github.com/Mumakil/toolon_urheilu",
-  "dependencies": [],
-  "devDependencies": [],
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "express": "^4.6.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "norman": "^0.1.0"
+  },
   "engines": {
     "node": "0.10.29",
     "npm": "1.4.14"
