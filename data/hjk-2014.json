@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2014-07-26",
+    "game": "FC Inter - HJK",
+    "kind": "football",
+    "home": false
+  },
+  {
+    "date": "2014-08-02",
+    "game": "MYPA - HJK",
+    "kind": "football",
+    "home": false
+  },
+  {
+    "date": "2014-08-09",
+    "game": "HJK - FC Barcelona",
+    "kind": "football",
+    "home": true
+  },
+  {
+    "date": "2014-08-13",
+    "game": "HJK - FC Inter",
+    "kind": "football",
+    "home": true
+  },
+  {
+    "date": "2014-08-16",
+    "game": "IFK Mariehamn - HJK",
+    "kind": "football",
+    "home": false
+  },
+  {
+    "date": "2014-08-24",
+    "game": "SJK - HJK",
+    "kind": "football",
+    "home": false
+  },
+  {
+    "date": "2014-08-31",
+    "game": "FF Jaro - HJK",
+    "kind": "football",
+    "home": false
+  },
+  {
+    "date": "2014-09-12",
+    "game": "HJK - KuPS",
+    "kind": "football",
+    "home": true
+  },
+  {
+    "date": "2014-09-17",
+    "game": "FC Lahti - HJK",
+    "kind": "football",
+    "home": false
+  },
+  {
+    "date": "2014-09-21",
+    "game": "HJK - IFK Mariehamn",
+    "kind": "football",
+    "home": true
+  },
+  {
+    "date": "2014-09-24",
+    "game": "HJK - MYPA",
+    "kind": "football",
+    "home": true
+  },
+  {
+    "date": "2014-09-28",
+    "game": "TPS - HJK",
+    "kind": "football",
+    "home": false
+  },
+  {
+    "date": "2014-10-03",
+    "game": "HJK - FC Honka",
+    "kind": "football",
+    "home": true
+  },
+  {
+    "date": "2014-10-18",
+    "game": "VPS - HJK",
+    "kind": "football",
+    "home": false
+  },
+  {
+    "date": "2014-10-25",
+    "game": "HJK - RoPS",
+    "kind": "football",
+    "home": true
+  }
+]
