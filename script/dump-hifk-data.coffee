@@ -1,4 +1,3 @@
-_ = require 'lodash'
 fs = require 'fs'
 
 transmogrifyDate = (dateString) ->
@@ -15,5 +14,6 @@ games = (
     date: transmogrifyDate(date), 
     game: game, 
     home: game.indexOf('IFK') == 0
+    kind: 'icehokey'
   } for [date, game] in games)
-console.log JSON.stringify games
+console.log JSON.stringify games, null, 2
