@@ -30,7 +30,7 @@ app.get '/', (req, res) ->
           textResponse += 'Niin voi huomennakin!'
       res.send 200, textResponse
     'application/json': ->
-      res.send(200, text: 'Voiko Töölössä mennä baariin?', today: !today, tomorrow: !tomorrow)
+      res.send(200, q: 'Voiko tänään mennä baariin Töölössä?', a: {today: !today, tomorrow: !tomorrow})
   )
 
 port = Number(process.env.PORT || 5000)
