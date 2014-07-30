@@ -32,9 +32,11 @@ app.get /^\/(\.(\w+))?$/, (req, res) ->
     json: ->
       res.type('application/json')
       res.send 200, q: 'Voiko tänään mennä baariin Töölössä?', a: {today: !today, tomorrow: !tomorrow}
-    # html: ->
-    #   res.type('text/html')
-    #   res.send 200, '<html></html>'
+    html: ->
+      res.locals.today = today
+      res.locals.tomorrow = tomorrow
+      res.type('text/html')
+      res.render 'index.jade'
 
   if req.params[1]? && req.params[1] != ''
     if response[req.params[1]]?

@@ -1,0 +1,32 @@
+doctype html
+html(lang="fi")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title= 'Töölöön kaljalle?'
+    meta(name='description', content='Appi joka kertoo, onko tänään peliä Töölössä, eli ovatko kaikki baarit täynnä.')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='public/normalize.css')
+    link(rel='stylesheet', href='public/tk.css')
+    meta(name='author', content='Otto Vehviläinen')
+  body
+    h1= 'Voiko tänään mennä kaljalle Töölössä?'
+
+    h2
+      - if (locals.today)
+        | Ei voi, on peli!
+      - else
+        | Kyllä voi!
+    h3
+      - if (locals.today)
+        - if (locals.tomorrow)
+          | Ei voi kyllä huomennakaan...
+        - else
+          | Mut onneks huomenna voi!
+      - else
+        - if (locals.tomorrow)
+          | Mut huomenna taas ei voi...
+        - else
+          | Ja niin voi huomennakin!
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js', async=true)
