@@ -5,6 +5,7 @@ html, body {
 
 .container {
   width: 100%;
+  margin-top: 8em;
 }
 
 h1, h2, h3 {
