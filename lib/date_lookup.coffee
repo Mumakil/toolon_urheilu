@@ -1,6 +1,9 @@
-data = require './data'
+request = require 'request'
 
-module.exports = (dateToCheck) ->
-  for own name, dataset of data
-    return true for {date, home} in dataset when dateToCheck == date && home
-  false
+apiUrl = 'https://toolo-api.herokuapp.com'
+
+module.exports = (dateToCheck, cb) ->
+  request
+    uri: "#{apiUrl}/${dateToCheck || ''}", json: true,
+    (err, res, body) ->
+      cb(err, body?.can_have_beers)

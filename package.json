@@ -1,16 +1,17 @@
 {
   "name": "toolon_urheilu",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tells if there's a sports event in Töölö",
   "main": "app.coffee",
   "scripts": {
-    "test": "grunt test"
+    "test": "echo 'No tests YOLO XD' && exit 1",
+    "start": "coffee app.coffee"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Mumakil/toolon_urheilu"
   },
-  "author": "Otto Vehviläinen <otto.vehvilainen@iki.fi>",
+  "author": "Otto Vehviläinen <otto@mumakil.fi>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mumakil/toolon_urheilu/issues"
@@ -19,17 +20,13 @@
   "dependencies": {
     "coffee-script": "^1.7.1",
     "express": "^4.6.1",
-    "jade": "^1.5.0",
     "logfmt": "^1.1.2",
     "moment": "^2.7.0",
+    "pug": "^2.0.0-beta11",
+    "request": "^2.79.0",
     "serve-static": "^1.4.3"
   },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "norman": "^0.1.0"
-  },
   "engines": {
-    "node": "0.10.x",
-    "npm": "1.4.x"
+    "node": "=7.5.0"
   }
 }

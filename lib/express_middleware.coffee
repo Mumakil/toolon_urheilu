@@ -1,9 +1,9 @@
 logfmt = require 'logfmt'
 serveStatic = require 'serve-static'
-jade = require 'jade'
+pug = require 'pug'
 
 module.exports = (app) ->
   app.use logfmt.requestLogger()
   app.use '/public', serveStatic('public', index: false)
 
-  app.engine 'jade', jade.__express
+  app.engine 'pug', pug.__express
